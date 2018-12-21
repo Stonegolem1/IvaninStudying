@@ -1,11 +1,11 @@
-# Задача 1
+print('Задача 1')
 fruit = ['арбуз', 'дыня', 'виноград', 'гранат', 'персик']
 i=0
 while i!= len(fruit):
     i+=1
     print(f'{i}. {fruit[i-1]:>10}')
 
-# Задача 2
+print('Задача 2')
 list1 = [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 'no', 'yes', 'no']
 list2 = [1, 2, 3, 'no']
 print(list1)
@@ -21,7 +21,7 @@ while i != len(list2):
     i += 1
 print(list1)
 
-# Задача 3
+print('Задача 3')
 import random
 n = random.randrange(5, 10, 1)
 list1 = []
@@ -33,7 +33,10 @@ while i != n:
 i = 0
 list2 = []
 while i != len(list1):
-    if list
+    if list1[i] % 2 == 0:
+        list2.append(list1[i]/4)
+    else:
+        list2.append(list1[i]*2)
     i += 1
 print(list1)
 print(list2)
