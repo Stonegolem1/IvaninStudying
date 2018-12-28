@@ -25,4 +25,3 @@ list1 = range(-10, 30, 1)
 print(list1)
 list2 = [n for n in list1 if n%3==0 and n>0 and n%4!=0]
 print(list2)
-
